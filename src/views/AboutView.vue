@@ -1,5 +1,24 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <div id="about"></div>
 </template>
+
+<script>
+export default {
+  name: "LiuduanAboutView",
+
+  data() {
+    return {};
+  },
+
+  mounted() {},
+
+  methods: {}
+};
+</script>
+
+<style scoped>
+#about {
+  width: 100%;
+  height: 300px;
+}
+</style>
